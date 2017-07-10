@@ -29,17 +29,3 @@ thread 'main' panicked at 'Unable to generate kernel bindings: ()', /checkout/sr
 note: Run with `RUST_BACKTRACE=1` for a backtrace.
 
 make: *** [all] Error 101
-
------------------------------------------
-Error while building sample C header file
------------------------------------------
-
-STD_KERNEL_PATH='/lib/modules/4.2.0-41-generic/build' cargo build
-   Compiling kernel-wrapper v0.1.0 (file:///local/mnt/workspace/dipanjan/kwrap)
-error: failed to run custom build command for `kernel-wrapper v0.1.0 (file:///local/mnt/workspace/dipanjan/kwrap)`
-process didn't exit successfully: `/local/mnt/workspace/dipanjan/kwrap/target/debug/build/kernel-wrapper-abf16a8eacafefd0/build-script-build` (exit code: 101)
---- stderr
-thread 'main' panicked at 'function not loaded: clang_Type_getNumTemplateArguments', /usr2/dipanjan/.cargo/registry/src/github.com-1ecc6299db9ec823/clang-sys-0.19.0/src/lib.rs:1356
-note: Run with `RUST_BACKTRACE=1` for a backtrace.
-
-make: *** [all] Error 101
