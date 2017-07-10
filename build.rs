@@ -36,7 +36,7 @@ fn main() {
             .expect("Unable to generate kernel bindings");
 
         bindings
-            .write_to_file(out_path.join("kernel.rs"))
+            .write_to_file(out_path.join("binding.rs"))
             .expect("Couldn't write kernel bindings!");
     }
 
@@ -48,7 +48,7 @@ fn main() {
             .expect("Unable to generate local bindings");
 
         bindings
-            .write_to_file(out_path.join("sample.rs"))
+            .write_to_file(out_path.join("binding.rs"))
             .expect("Couldn't write local bindings!");
     }
 }

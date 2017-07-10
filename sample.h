@@ -1,5 +1,6 @@
-struct demo
-{
-	int demo_a;
-	float demo_b;
-};
+typedef struct CoolStruct {
+    int x;
+    int y;
+} CoolStruct;
+
+void cool_function(int i, char c, CoolStruct* cs);
