@@ -1,0 +1,8 @@
+[package]
+authors = ["Dipanjan Das"]
+build = "build.rs"
+name = "kernel-wrapper"
+version = "0.1.0"
+
+[build-dependencies]
+bindgen = "0.26.3"
